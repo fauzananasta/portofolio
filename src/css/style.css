@@ -1,0 +1,260 @@
+body {
+  background-color: #EEEEEE !important;
+  font-family: "Segoe UI";
+}
+
+/* All font segoe ui */
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../fonts/segoeui.ttf");
+}
+
+@font-face {
+  font-family: "Bungee";
+  src: url("../fonts/Bungee-Regular.ttf");
+}
+
+/* all component border */
+
+* {
+  /* border: 1px solid #000; */
+}
+
+
+
+.container-fluid {
+  margin-top: 6px;
+}
+
+.bg-nav {
+  background-color: #040b14;
+  height: 50px;
+}
+
+.navbar .navbar-nav {
+  margin: 0 auto;
+}
+
+.circleBase {
+  border-radius: 50%;
+}
+
+
+.circle-1 {
+  width: 20px;
+  height: 20px;
+  background: #ef233c;
+  border: 1px solid #707070;
+}
+
+.circle-2 {
+  width: 20px;
+  height: 20px;
+  background: #ffc300;
+  border: 1px solid #707070;
+}
+
+.circle-3 {
+  width: 20px;
+  height: 20px;
+  background: #00b9ae;
+  border: 1px solid #707070;
+}
+
+/* centering text kelompok */
+.title-kelompok {
+  color: #FFFF;
+  font-family: "Bungee";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-shadow: 0.8px 0 #000, -0.8px 0 #000, 0 0.8px #000, 0 -0.8px #000,
+    0.8px 0.8px #000, -0.8px -0.8px #000, 0.8px -0.8px #000, -0.8px 0.8px #000;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.title-kelompok-0 {
+  color: #000;
+  font-family: "Bungee";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-shadow: 0.8px 0 #000, -0.8px 0 #000, 0 0.8px #000, 0 -0.8px #000,
+    0.8px 0.8px #000, -0.8px -0.8px #000, 0.8px -0.8px #000, -0.8px 0.8px #000;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+
+  .title-kelompok {
+    font-size: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .title-kelompok-0 {
+    font-size: 10px;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .title-kelompok:hover {
+    transform: translate(-52%, -49%);
+  }
+
+  .circle-1 {
+    width: 10px;
+    height: 10px;
+    background: #db222a;
+    border: 1px solid #707070;
+  }
+
+  .circle-2 {
+    width: 10px;
+    height: 10px;
+    background: #ffc300;
+    border: 1px solid #707070;
+  }
+
+  .circle-3 {
+    width: 10px;
+    height: 10px;
+    background: #00b9ae;
+    border: 1px solid #707070;
+  }
+
+  .bg-nav {
+    background-color: #ff9914;
+    height: 35px;
+  }
+
+
+}
+
+
+.title-kelompok:hover {
+  color: #FFFF;
+  text-decoration: none;
+  /* transform: translate(-102.5px, -13px); */
+}
+
+.title-kelompok-0:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+img {
+  width: 6rem;
+  border-radius: 2rem;
+}
+
+span {
+  color: #707070;
+  font-size: 12px;
+}
+
+.i-header {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.t2-nama {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.t2-nim {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 12px;
+
+  margin-left: 23px;
+}
+
+.t2-kls {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 12px;
+}
+
+.info {
+  font-size: 0.8rem;
+}
+
+.card-text {
+  width: 170px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 9px
+}
+
+.banner-anggota {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.btn-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.cn-hover {
+  background: #f8f9fa;
+  transition: 0.3s;
+
+}
+
+.cn-hover::after,
+.cn-hover::before {
+  content: "";
+  position: absolute;
+  opacity: 0.8;
+  background: #149ddd;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
+
+}
+
+.cn-hover:hover {
+  transform: translate(-12px, -12px);
+
+}
+
+.cn-hover:hover::after {
+  transform: translate(6px, 6px);
+}
+
+.cn-hover:hover::before {
+  transform: translate(12px, 12px);
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 0 0;
+  transition: 0.3s;
+}
