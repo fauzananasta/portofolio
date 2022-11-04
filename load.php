@@ -19,5 +19,41 @@ $model = [
         'nim' => '21416255xx',
         'kelas' => 'IF21F',
     ],
+    3 => [
+        'nama' => 'Aldimas Laksono',
+        'photo' => 'assets/img/photos/Dimas.JPG',
+        'nim' => '21416255201050',
+        'kelas' => 'IF21F',
+    ],
+    4 => [
+        'nama' => 'Risma Marina',
+        'photo' => 'assets/img/photos/Risma.jpg',
+        'nim' => '21416255201039',
+        'kelas' => 'IF21F',
+    ],
+    5 => [
+        'nama' => 'Septinas Marzuq Hadi Putra',
+        'photo' => 'assets/img/photos/Tian.jpg',
+        'nim' => '21416255xxxxxx',
+        'kelas' => 'IF21F',
+    ],
+    6 => [
+        'nama' => 'Arief Maulana',
+        'photo' => 'assets/img/photos/Arief.jpg',
+        'nim' => '21416255xxxxxx',
+        'kelas' => 'IF21F',
+    ],
+    7 => [
+        'nama' => 'Ira Sutirahayu',
+        'photo' => 'assets/img/photos/ira s.jpg',
+        'nim' => '21416255xxxxxx',
+        'kelas' => 'IF21F',
+    ],
+    8 => [
+        'nama' => 'Yolanda',
+        'photo' => 'assets/img/photos/4x6.jpg',
+        'nim' => '21416255xxxxxx',
+        'kelas' => 'IF21F',
+    ],
 
 ];
