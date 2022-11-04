@@ -10,7 +10,7 @@ $model = [
     1 => [
         'nama' => 'Muhammad Fauzan Zakian',
         'photo' => 'assets/img/photos/fauzan.jpg',
-        'nim' => '21416255',
+        'nim' => '21416255201112',
         'kelas' => 'IF21F',
     ],
     2 => [
